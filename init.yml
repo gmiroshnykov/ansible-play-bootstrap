@@ -1,7 +1,7 @@
-- include: tasks/bootstrap/packages.yml
-- include: tasks/bootstrap/ruby.yml
-- include: tasks/bootstrap/gems.yml
-- include: tasks/bootstrap/user.yml
-- include: tasks/bootstrap/github.yml
-- include: tasks/sysctl/init.yml
-- include: tasks/limits/init.yml
+- include: plays/bootstrap/packages.yml
+- include: plays/bootstrap/ruby.yml
+- include: plays/bootstrap/gems.yml
+- include: plays/bootstrap/user.yml
+- include: plays/bootstrap/github.yml
+- include: plays/sysctl/init.yml
+- include: plays/limits/init.yml
