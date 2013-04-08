@@ -1,9 +1,0 @@
-- name: add user '$user'
-  user: name=${user} shell=/bin/bash
-
-# this user should be only used in Upstart
-# we should not SSH with this user under normal circumstances,
-# so we don't need an SSH key
-
-# - name: add SSH key for '$user'
-#   authorized_key: user=${user} key='$FILE(~/.ssh/id_rsa.pub)'

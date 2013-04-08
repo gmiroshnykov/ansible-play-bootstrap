@@ -1,6 +1,7 @@
 - name: add 'github.com' to known_hosts
+  sudo: false
   lineinfile:
-    dest=/home/${user}/.ssh/known_hosts
+    dest=~/.ssh/known_hosts
     state=present
     create=yes
     regexp='github\.com'

@@ -1,7 +1,6 @@
 - include: plays/bootstrap/packages.yml
 - include: plays/bootstrap/ruby.yml
 - include: plays/bootstrap/gems.yml
-- include: plays/bootstrap/user.yml
 - include: plays/bootstrap/github.yml
 - include: plays/bootstrap/sysctl.yml
 - include: plays/bootstrap/limits.yml
