@@ -3,5 +3,5 @@
 - include: plays/bootstrap/gems.yml
 - include: plays/bootstrap/user.yml
 - include: plays/bootstrap/github.yml
-- include: plays/sysctl/init.yml
-- include: plays/limits/init.yml
+- include: plays/bootstrap/sysctl.yml
+- include: plays/bootstrap/limits.yml
